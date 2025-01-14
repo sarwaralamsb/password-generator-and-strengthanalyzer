@@ -23,27 +23,22 @@ To run this app locally, follow these steps:
 git clone https://github.com/your-username/password-strength-analyzer.git
 cd password-strength-analyzer
 ```
-
 ### 2. Install dependencies:
 Make sure you have Python 3.7+ installed. You can create a virtual environment and install the dependencies using the following:
-
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
-
 The requirements.txt should contain the necessary libraries:
 ```bash
 streamlit
 password-strength
 ```
-
 You can create this file by running:
 ```bash
 pip freeze > requirements.txt
 ```
-
 ### 3. Run the app:
 ```bash
 streamlit run app.py
