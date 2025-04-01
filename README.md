@@ -59,6 +59,7 @@ policy = PasswordPolicy.from_names(
     nonletters=1  # At least 1 non-letter character
 )
 ```
+
 ### App Layout
 The layout can be adjusted by modifying the `st.columns()` and other Streamlit layout components.
 
